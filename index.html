@@ -4,18 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pricing Table</title>
+
+<style>
+
+section{
+    width: 100%; 
+    padding:4rem 0.1rem;
+    margin: 0 auto;
+
+}
+
+
+.container{
+        display:flex;
+        justify-content:center;
+        gap: 4rem;
+        padding-top:4rem;    
+    }
+
+.plan{
+    background-color:rgb(120, 180, 120);
+    border-radius:2rem;
+    padding: 2rem;
+    
+
+    
+
+    
+}
+
+
+.price{
+    margin:1;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+
+
+    
+
+}
+  
+
+.info li {
+    justify-content: center;
+    margin-bottom: 1rem;
+    padding: 0 auto;
+    
+}
+
+ 
+
+.container button{
+    background-color:rgb(168, 165, 168);
+    border-radius: 1rem;
+    margin:1;
+    padding:0.3rem;
+   
+    
+}
+
+
+@media (max-width: 600px) {
+        .container {
+            flex-direction: column;
+        }
+    }    
+
+
+
+
+</style>
 </head>
+
+
+
 <body>
+    <section>
     <div class="container">
-        <div class="plan"> <h2>Basic</h2>
-           <div class="price"> <h3>$10.99 / 1 month</h3></div>
+        <div class="plan"> <h1>Basic</h1>
+           <div class="price"><h3>$14/per month</h3></div><h5>Get party started.</h5>
            <ul class="info">
                <li>50 GB Storage</li>
                <li>Up to 3 user</li>
-               <li>24/7 Customer Service</li>
-               <li>Support</li>
+               <li>Customize design</li>
+               <li>Customer service</li>
+               <li>Standard Support</li>
                <li>No response charge</li>
-                
                
            </ul>
            <button>Buy Now</button>
@@ -23,13 +98,14 @@
    
         
 
-       <div class="plan"> <h2>Standard</h2>
-           <div class="price"> <h3>$30.99/ 6 months</h3></div>
+       <div class="plan"> <h1>Standard</h1>
+           <div class="price"><h3>$30/per month</h3></div><h5>Get party started.</h5>
            <ul class="info">
                <li>100 GB Storage</li>
                <li>Up to 10 user </li>
-               <li>24/7 Customer Service</li>
-               <li>Email Support</li>
+               <li>Customize design</li>
+               <li>Customer service</li>
+               <li>Standard support</li>
                <li>No response charge</li>
               
            </ul>
@@ -38,19 +114,22 @@
 
 
    
-       <div class="plan"> <h2>Premium</h2>
-           <div class="price"> <h3>$55.99 / 1 year</h3></div>
+       <div class="plan"> <h1>Premium</h1>
+           <div class="price"><h3>$55/per month</h3></div><h5>Get party started.</h5>
            <ul class="info">
                <li>200 GB Storage</li>
                <li>Up to 15 user</li>
-               <li>24/7 Customer Service</li>
-               <li>Email and phone support</li>
+               <li>Customize design</li>
+               <li>Customer service</li>
+               <li>Standard support</li>
                <li>No response charge</li>
+
            </ul>
            <button>Buy Now</button>
        
     </div>
-   </section>
+</section>
+   
    
     
 </body>
